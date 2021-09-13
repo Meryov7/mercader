@@ -1,0 +1,40 @@
+* {box-sizing:border-box}
+
+:root {
+  --blue:#45526C;
+  --green: #5AA897;
+  --orange: #ffe5d1;
+  --grey: #F8F5F1;
+
+}
+.col-grey{
+  background-color: var(--grey);
+}
+
+.col-orange{
+  background-color: var(--orange);
+}
+
+.text-blue{
+color: var(--blue);
+}
+
+body{
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Share', cursive;
+}
+
+.btn-primary{
+  background-color:var(--blue) !important;
+  border-color: black!important;
+  text-decoration-color: black;
+}
+
+.btnblue:hover{
+  background-color:var(--blue) !important;
+}
+
+
