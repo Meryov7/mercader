@@ -7,11 +7,9 @@
   --grey: #F8F5F1;
 
 }
-.col-grey{
-  background-color: var(--grey);
-}
 
-.col-orange{
+
+.opcion:hover {
   background-color: var(--orange);
 }
 
@@ -36,5 +34,4 @@ body{
 .btnblue:hover{
   background-color:var(--blue) !important;
 }
-
 
